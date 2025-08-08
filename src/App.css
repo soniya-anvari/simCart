@@ -38,3 +38,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.ant-input{
+  width: 25% !important;
+}
+@media (max-width: 600px) {
+  .ant-space-item,.ant-input{
+  width: 100% !important;
+}
+.ant-space-item .ant-select {
+    width: 100% !important;
+
+}
+}

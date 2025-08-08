@@ -67,7 +67,7 @@ export default function SimCardPage() {
   return (
     <ConfigProvider theme={{ algorithm: theme.darkAlgorithm }}>
       <div
-        className=" mx-auto p-6 min-h-screen"
+        className=" mx-auto p-2 min-h-screen"
         style={{ backgroundColor: "#0f1214", color: "#fff" }}
       >
         <h1 className="text-3xl mb-6 font-bold">مدیریت سیم‌کارت‌ها</h1>

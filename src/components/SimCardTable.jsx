@@ -420,12 +420,10 @@ if (filters.ProductCode) params.ProductCode = filters.ProductCode;
               allowClear
               value={filters.ProductCode}
               onChange={(e) => handleFilterChange("ProductCode", e.target.value)}
-              style={{ width: 180 }}
             />
             <Select
               placeholder="انتخاب برند"
               allowClear
-              style={{ width: 160 }}
               value={filters.BrandId}
               onChange={(val) => handleFilterChange("BrandId", val)}
               options={brands}
@@ -433,7 +431,6 @@ if (filters.ProductCode) params.ProductCode = filters.ProductCode;
             <Select
               placeholder="انتخاب نوع کیفیت"
               allowClear
-              style={{ width: 160 }}
               value={filters.QualityId}
               onChange={(val) => handleFilterChange("QualityId", val)}
               options={qualities}
@@ -441,7 +438,7 @@ if (filters.ProductCode) params.ProductCode = filters.ProductCode;
             <Select
               placeholder="انتخاب پیش‌شماره (اپراتور)"
               allowClear
-              style={{ width: 160 }}
+
               value={filters.OperatorId}
               onChange={(val) => handleFilterChange("OperatorId", val)}
               options={operators}
